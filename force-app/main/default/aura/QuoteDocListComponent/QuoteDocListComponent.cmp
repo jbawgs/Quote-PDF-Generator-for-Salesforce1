@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,force:hasRecordId" controller="QuoteListComponentController">
+    <aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name="myQuote" type="Quote"/>
+    Testing
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+     <h4>Quote PDF Documents</h4>
+	<aura:iteration var="qd" items="{!v.myQuote.QuoteDocuments}">
+    	<p><a href="{!'/apex/QuoteDocViewer?id=' + qd.Id}">{!qd.Name}</a></p>
+    </aura:iteration>
+</aura:component>

@@ -1,0 +1,77 @@
+[
+    [
+        "/home/dan/sfdx-projects/PDFViewer/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/home/dan/sfdx-projects/PDFViewer/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1535909807289,
+            "changeTime": 1535909807289,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/home/dan/sfdx-projects/PDFViewer/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/home/dan/sfdx-projects/PDFViewer/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1535909807289,
+            "changeTime": 1535909807289,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/dan/sfdx-projects/PDFViewer/force-app/main/default",
+        {
+            "state": "n",
+            "sourcePath": "/home/dan/sfdx-projects/PDFViewer/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1535909807289,
+            "changeTime": 1535909807289,
+            "contentHash": "2c2a89c1c45d2977cfce538e475902f5520f4382",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/dan/sfdx-projects/PDFViewer/force-app/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/home/dan/sfdx-projects/PDFViewer/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1535909807289,
+            "changeTime": 1535909807289,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/dan/sfdx-projects/PDFViewer",
+        {
+            "state": "n",
+            "sourcePath": "/home/dan/sfdx-projects/PDFViewer",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1535910169936,
+            "changeTime": 1535910169936,
+            "contentHash": "07da07834d8f50a1018cf646c911906296572a7c",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

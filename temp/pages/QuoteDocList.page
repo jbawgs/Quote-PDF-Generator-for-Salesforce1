@@ -1,0 +1,54 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0" standardController="Quote" extensions="QuoteListComponentController">
+    
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <title>View Quote PDFs</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <apex:slds />
+        </head>
+        <body>
+            <div class="slds-scope">
+                <div class="myapp">
+                    <section aria-labelledby="badges">
+                        <h2 id="badges" class="slds-text-heading--large slds-m-vertical--large">PDF Files</h2>
+                        <div>
+                            <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+                                <thead>
+                                    <tr class="slds-text-title_caps">
+                                        <th scope="col">
+                                            <div class="slds-truncate" title="File Name">File Name</div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="slds-truncate" title="Created Date">Created Date</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>                                    
+                                    <apex:repeat value="{!quoteDocuments}" var="c">
+                                        <tr>
+                                            <th scope="row" data-label="File Name">
+                                                <div class="slds-truncate" title="Cloudhub">
+                                                    <a href="/apex/QuoteDocViewer?id={!c.Id}">{!c.name}</a>
+                                                </div>
+                                            </th>
+                                            <th scope="row" data-label="Created Date">
+                                                <div class="slds-truncate" title="Cloudhub">
+                                                    {!c.CreatedDate}
+                                                </div>
+                                            </th>
+                                        </tr>                                        
+                                    </apex:repeat>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                    
+                </div>
+                
+            </div>
+            
+        </body>
+    </html>
+</apex:page>

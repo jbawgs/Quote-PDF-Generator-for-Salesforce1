@@ -1,0 +1,22 @@
+<aura:component access="GLOBAL" controller="S1QuotePDFController" implements="flexipage:availableForAllPageTypes">
+	<aura:attribute name="quoteId" type="String" access="GLOBAL"/>
+	<aura:attribute name="emailId" type="String"/>
+    <aura:attribute name="emailBody" type="String"/>
+	<aura:attribute name="pdfData" type="String"/>
+    <aura:attribute name="isBin" type="Boolean"/>
+	<aura:attribute name="pdfContainer" type="Aura.Component[]"/>
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	<lightning:spinner aura:id="_spinner" variant="brand" size="large"/>
+	<lightning:input type="text" aura:id="emailField" name="emailId" label="Email" placeholder="Enter Email Address..." value="{!v.emailId}"/>
+    <!--Email body field -->
+	<lightning:textarea aura:id="emailBody" class="emailTextArea" name="emailBody" label="Email Body" placeholder="Enter Email Body..." value="{!v.emailBody}"/>
+    <lightning:layout horizontalAlign="spread">
+		<lightning:layoutItem padding="around-small">
+			<lightning:button variant="brand" label="Email" iconName="utility:email" iconPosition="left" onclick="{! c.sendEmail }" />	
+		</lightning:layoutItem>
+		<lightning:layoutItem padding="around-small">
+			<lightning:button aura:id="saveButton" variant="brand" label="Save" iconName="utility:check" iconPosition="left" onclick="{! c.saveQuote }" />
+		</lightning:layoutItem>
+	</lightning:layout>
+	{!v.pdfContainer}
+</aura:component>
