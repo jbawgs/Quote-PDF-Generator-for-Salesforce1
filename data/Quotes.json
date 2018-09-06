@@ -1,0 +1,76 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Quote",
+                "referenceId": "QuoteRef1"
+            },
+            "Name": "work 4 de gawds",
+            "Opportunity": {
+                "attributes": {
+                    "type": "Opportunity",
+                    "url": "/services/data/v43.0/sobjects/Opportunity/0061I00000997dRQAQ"
+                },
+                "Name": "this is going to work for sure",
+                "StageName": "Prospecting",
+                "CloseDate": "2018-06-22",
+                "Account": {
+                    "attributes": {
+                        "type": "Account",
+                        "url": "/services/data/v43.0/sobjects/Account/0011I000005nOQ8QAM"
+                    },
+                    "Name": "Burlington Textiles Corp of America",
+                    "Id": "0011I000005nOQ8QAM"
+                }
+            }
+        },
+        {
+            "attributes": {
+                "type": "Quote",
+                "referenceId": "QuoteRef2"
+            },
+            "Name": "this here quote",
+            "Opportunity": {
+                "attributes": {
+                    "type": "Opportunity",
+                    "url": "/services/data/v43.0/sobjects/Opportunity/0061I0000098xw2QAA"
+                },
+                "Name": "try again",
+                "StageName": "Id. Decision Makers",
+                "CloseDate": "2018-06-12",
+                "Account": {
+                    "attributes": {
+                        "type": "Account",
+                        "url": "/services/data/v43.0/sobjects/Account/0011I000005nOQ8QAM"
+                    },
+                    "Name": "Burlington Textiles Corp of America",
+                    "Id": "0011I000005nOQ8QAM"
+                }
+            }
+        },
+        {
+            "attributes": {
+                "type": "Quote",
+                "referenceId": "QuoteRef3"
+            },
+            "Name": "Sample QUote",
+            "Opportunity": {
+                "attributes": {
+                    "type": "Opportunity",
+                    "url": "/services/data/v43.0/sobjects/Opportunity/0061I000004SXU6QAO"
+                },
+                "Name": "Burlington Textiles Weaving Plant Generator",
+                "StageName": "Closed Won",
+                "CloseDate": "2017-08-08",
+                "Account": {
+                    "attributes": {
+                        "type": "Account",
+                        "url": "/services/data/v43.0/sobjects/Account/0011I000005nOQ8QAM"
+                    },
+                    "Name": "Burlington Textiles Corp of America",
+                    "Id": "0011I000005nOQ8QAM"
+                }
+            }
+        }
+    ]
+}

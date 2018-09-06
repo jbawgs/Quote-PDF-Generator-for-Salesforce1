@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Opportunity",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Opportunitys.json"
+        ]
+    }
+]

@@ -14,30 +14,8 @@ public with sharing class S1QuotePDFController {
         }
         try{
             ret.success=true;
-            // original
+
             String pdfURL = '/quote/quoteTemplateDataViewer.apexp?id='+quoteId+'&summlid='+ts.Value__c;
-            
-            // Working hardcoded
-            //String pdfURL = '/quote/quoteTemplateDataViewer.apexp?id=0Q01I000000N14fSAC&summlid=0EH1I000000V34k';
-            
-            
-            
-            //String pdfURL = '/lightning/quote/quoteTemplateDataViewer.apexp?0.id='+quoteId+'&0.summlid='+ts.Value__c;
-            //String pdfURL = '/lightning/o/Quote/' + quoteId + '/quoteTemplateDataViewer.apexp?0.id='+quoteId+'&0.summlid='+ts.Value__c;
-            
-            //String pdfURL = '/apex/S1QuotePDF?0.id=0Q01I000000N14fSAC&0.summlid=0EH1I000000V34k';
-            
-            //String pdfURL = '/lightning/r/Quote/quoteTemplateDataViewer.apexp?0.id='+quoteId+'&0.summlid='+ts.Value__c;
-            
-            //String pdfURL = '/quoteTemplateDataViewer.apexp/lightning?0.id='+quoteId+'&0.summlid='+ts.Value__c;
-            //String pdfURL = '//quoteTemplateDataViewer.apexp/lightning?0.id='+quoteId+'&0.summlid='+ts.Value__c;
-            //String pdfURL = 'https://c.na73.lightning.force.com/lightning?0.id='+quoteId+'&0.summlid='+ts.Value__c;
-            //String pdfURL = '/lightning/r/Quote/0Q01I000000N14fSAC/quoteTemplateDataViewer?0.id=0Q01I000000N14fSAC&0.summlid=3D0EH1I000000V34k';
-            
-            //String pdfURL = 'https://na73.lightning.force.com/lightning/r/Quote/0Q01I000000N14fSAC/quoteTemplateDataViewer?0.id=0Q01I000000N14fSAC&0.summlid=3D0EH1I000000V34k';
-            //String pdfURL = '/apex/accountTest?0.id=0011I000005nOQ8QAM';
-            //String pdfURL = '/apex/accountTest';
-            //String pdfURL = '/apex/quoteTemplateDataViewer.apexp?id='+quoteId+'&summlid='+ts.Value__c;
             
             System.debug(pdfURL);
             PageReference pdf = new PageReference(pdfURL);

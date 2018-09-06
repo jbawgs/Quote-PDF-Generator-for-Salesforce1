@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Quote",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Quotes.json"
+        ]
+    }
+]
